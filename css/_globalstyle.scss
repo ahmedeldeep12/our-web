@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo|El+Messiri&display=swap');
+
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color: #F7F7F7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #989898;
+}
+
+
+
+/*==================Color==========*/
+
+$mainColor:#EF7710;
+$scondColor:#FFAD0A;
+$thirdColor:#989898;
+
+
+/*==================class==========*/
+
+
+.active {
+    color: #EF7710;
+}
+
+.select {
+    background-color: #EF7710;
+    color: #fff;
+}
+
+.select-teble {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EF7710;
+    color: #EF7710;
+}
+
+.main-button {
+    color: #fff;
+    background-color: $mainColor;
+    border: 1px solid #ddd;
+    padding: 3px 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    transition: all .5s;
+
+}
+
+.main-button:hover  {
+    color: #000;
+    background-color: #fff;
+    transition: all .5s;
+
+}
+
+.back {
+    background-image: url('../images/back4.png');
+    background-size: 100% 100%;
+}
