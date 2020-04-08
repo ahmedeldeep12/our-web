@@ -86,3 +86,23 @@ $thirdColor:#989898;
     padding-right: 30px;
     padding-left: 30px;
 }
+
+.our-work {
+    height: 300px;
+    background-size: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0, .7), rgba(0,0,0, .5)), url(../images/work.jpg) center no-repeat;
+}
+
+.web-develop {
+    background: linear-gradient(to bottom, rgba(0,0,0, .4), rgba(0,0,0, .3)), url(../images/web-development.png) center no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+
+}
+
+.mob-development {
+    background: linear-gradient(to bottom, rgba(0,0,0, .4), rgba(0,0,0, .3)), url(../images/mob-development.png) center no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+
+}

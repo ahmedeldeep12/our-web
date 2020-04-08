@@ -76,6 +76,27 @@ a {
   padding-left: 30px;
 }
 
+.our-work {
+  height: 300px;
+  background-size: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.5))), url(../images/work.jpg) center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/work.jpg) center no-repeat;
+}
+
+.web-develop {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.3))), url(../images/web-development.png) center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/web-development.png) center no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+.mob-development {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.3))), url(../images/mob-development.png) center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/mob-development.png) center no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
 .works .owl-carousel .item .wrap-item-work {
   position: relative;
   -webkit-animation: top 6s ease-in-out alternate infinite;
@@ -290,13 +311,6 @@ header .wrap-header .wrap-content-header p {
 }
 
 /*==========================================works ==========================*/
-.our-work {
-  height: 300px;
-  background-size: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.5))), url(../images/work.jpg) center no-repeat;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/work.jpg) center no-repeat;
-}
-
 .ourWork {
   text-align: center;
   padding: 50px 0;
