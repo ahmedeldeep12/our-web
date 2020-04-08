@@ -75,3 +75,14 @@ $thirdColor:#989898;
     background-image: url('../images/back4.png');
     background-size: 100% 100%;
 }
+
+.container {
+    overflow: hidden;
+}
+
+.ground {
+    background-image: url('../images/backcon.png');
+    background-size: 100% 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}

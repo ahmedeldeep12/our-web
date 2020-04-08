@@ -65,6 +65,17 @@ a {
   background-size: 100% 100%;
 }
 
+.container {
+  overflow: hidden;
+}
+
+.ground {
+  background-image: url("../images/backcon.png");
+  background-size: 100% 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .works .owl-carousel .item .wrap-item-work {
   position: relative;
   -webkit-animation: top 6s ease-in-out alternate infinite;
@@ -821,6 +832,176 @@ header .wrap-header .wrap-content-header p {
   right: 0;
 }
 
+.one-Work {
+  background-image: url("../images/backcon.png");
+  background-size: 100% 100%;
+}
+
+.one-Work .work-info {
+  background-image: url("../images/ground1.png");
+  background-size: 100% 100%;
+}
+
+.one-Work .work-info .ground {
+  padding: 70px 0 0;
+}
+
+.one-Work .work-info .ground .work-img img {
+  width: 100%;
+}
+
+.one-Work .work-info .ground .write-info {
+  padding-top: 70px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.one-Work .work-info .ground .write-info h3 {
+  color: #EF7710;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.one-Work .work-info .ground .write-info p {
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.one-Work .work-info .ground .write-info a img {
+  width: 200px;
+  display: block;
+  margin-top: 20px;
+}
+
+.one-Work .work-info .ground .write-info span {
+  display: block;
+  margin-top: 150px;
+}
+
+.one-Work h2 {
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.one-Work h2::before {
+  position: absolute;
+  top: 0;
+  height: 3px;
+  width: 80px;
+  background-color: #FFAD0A;
+  content: "";
+}
+
+.one-Work .about-work {
+  text-align: right;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.one-Work .about-work p {
+  line-height: 2;
+}
+
+.one-Work .color-work {
+  text-align: right;
+  padding-bottom: 80px;
+}
+
+.one-Work .color-work .wrap-color {
+  padding-right: 50px;
+}
+
+.one-Work .color-work .wrap-color div {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.one-Work .color-work .wrap-color div span {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  display: block;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.one-Work .color-work .wrap-color div .first-color {
+  background-color: #FE9F00;
+}
+
+.one-Work .color-work .wrap-color div .second-color {
+  background-color: #C67915;
+}
+
+.one-Work .color-work .wrap-color div .third-color {
+  background-color: #404042;
+}
+
+.one-Work .text-color {
+  margin-top: 70px;
+}
+
+.one-Work .text-color h4 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #FFAD0A;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.one-Work .feature {
+  padding-bottom: 50px;
+  background-image: url("../images/ground2.png");
+  background-size: 100% 100%;
+}
+
+.one-Work .feature .wrap-feature {
+  text-align: right;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.one-Work .feature .wrap-feature p {
+  color: #989898;
+}
+
+.one-Work .userFlow {
+  text-align: right;
+}
+
+.one-Work .userFlow h2 {
+  margin: 70px 0 90px;
+}
+
+.one-Work .userFlow img {
+  width: 79%;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border-radius: 10px;
+}
+
+.one-Work .userFlow img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 10px #EF7710;
+          box-shadow: 0 0 10px #EF7710;
+}
+
+.one-Work .userFlow h1 {
+  color: #EF7710;
+  padding: 40px 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+/*===========================================================*/
 .text-contact {
   background-color: #f3f4f4;
   padding: 40px;
@@ -1076,11 +1257,11 @@ a:hover {
   .wrap-who-we {
     text-align: center;
   }
-  .wrap-who-we img {
-    margin-right: 30px !important;
-  }
   .wrap-who-we h2 {
     text-align: center;
+  }
+  .text-color {
+    display: none !important;
   }
 }
 

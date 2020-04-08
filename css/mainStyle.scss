@@ -6,6 +6,7 @@
 header {
 
     
+    
 
     nav {
         position: fixed;
@@ -679,8 +680,8 @@ header {
     padding-top: 40px;
     margin-top: 50px;
     overflow-x: hidden;
-      color:#000;
-      position: relative;
+    color:#000;
+    position: relative;
 
     p {
 
@@ -753,6 +754,186 @@ header {
 }
 
 
+
+
+
+.one-Work {
+
+    background-image: url('../images/backcon.png');
+    background-size: 100% 100%;
+
+    .work-info{
+
+        background-image: url('../images/ground1.png');
+        background-size: 100% 100%;
+
+        .ground {
+            padding: 70px 0 0;
+
+            .work-img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .write-info {
+                padding-top: 70px;
+                text-align: right;
+                padding-right: 40px;
+
+                h3 {
+                    color: $mainColor;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                }
+
+                p {
+                    width: 90%;
+                    margin-bottom: 80px;
+                }
+
+                a {
+
+                    img {
+
+                        width: 200px;
+                        display: block;
+                        margin-top: 20px;
+
+                    }
+                }
+
+                span {
+                    display: block;
+                    margin-top: 150px;
+                }
+
+            }
+        }
+    }
+
+    h2 {
+        padding-top: 20px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    h2::before {
+        position: absolute;
+        top: 0;
+        height: 3px;
+        width: 80px;
+        background-color: $scondColor;
+        content: "";
+    }
+    
+    .about-work {
+        text-align: right;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        
+        p {
+            line-height: 2;
+        }
+    }
+
+    .color-work {
+        text-align: right;
+        padding-bottom: 80px;
+
+        .wrap-color {
+            padding-right: 50px;
+
+            div {
+                display: inline-block;
+                margin-left: 15px;
+
+                span {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #000;
+                    display: block;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    
+                }
+
+                .first-color {
+                    background-color: #FE9F00;
+                }
+
+                .second-color {
+                    background-color: #C67915;
+                }
+
+                .third-color {
+                    background-color: #404042;
+                }
+            }
+        }
+    }
+
+    .text-color {
+        margin-top: 70px;
+
+        h4 {
+            transform: rotate(90deg);
+            color: $scondColor;
+            transform-origin: top left;
+            margin-left: 40px;
+            margin-top: 30px;
+
+        }
+    }
+
+    .feature {
+        padding-bottom: 50px;
+        background-image: url('../images/ground2.png');
+        background-size: 100% 100%;
+
+        .wrap-feature {
+            text-align: right;
+            padding-right: 30px;
+            margin-top: 30px;
+
+            p {
+                color: $thirdColor;
+            }
+        }
+    }
+
+    .userFlow {
+        text-align: right;
+
+        h2 {
+            margin:70px 0 90px;
+        }
+
+        img {
+            width: 79%;
+            margin: auto;
+            margin-bottom: 30px;
+            cursor: pointer;
+            transition: all .5s;
+            border-radius: 10px;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px $mainColor;
+        }
+
+        h1 {
+            color: $mainColor;
+            padding: 40px 0;
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+}
+
+/*===========================================================*/
 .text-contact {
     background-color: #f3f4f4;
     padding: 40px;
@@ -1063,15 +1244,15 @@ a:hover {
 
     .wrap-who-we {
 
-        img {
-            margin-right: 30px !important;
-        }
-
         text-align: center;
 
         h2 {
             text-align: center;
         }
+    }
+
+    .text-color {
+        display: none !important;
     }
 
 }
