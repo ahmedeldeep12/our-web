@@ -594,6 +594,7 @@ header .wrap-header .wrap-content-header p {
   background-image: url("../images/who.png");
   height: 300px;
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .who-we {
@@ -618,7 +619,7 @@ header .wrap-header .wrap-content-header p {
 }
 
 .who-we .wrap-who-we img {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -678,9 +679,11 @@ header .wrap-header .wrap-content-header p {
 
 /*========================الخدمات =========*/
 .our-services {
-  background-image: url("../images/service.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/service.jpg) center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/service.jpg) center no-repeat;
   height: 300px;
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .services {
@@ -999,6 +1002,39 @@ header .wrap-header .wrap-content-header p {
   padding: 40px 0;
   text-align: center;
   font-weight: normal;
+}
+
+.mobile {
+  padding: 50px 0;
+  background-image: url("../images/back4.png");
+}
+
+.mobile h1 {
+  color: #EF7710;
+  margin-bottom: 15px;
+}
+
+.mobile .wrap-mobile {
+  padding-top: 50px;
+}
+
+.mobile .wrap-mobile h2 {
+  color: #EF7710;
+}
+
+.mobile .wrap-mobile li {
+  color: #EF7710;
+  font-weight: bold;
+  list-style: initial;
+}
+
+.mobile .wrap-mobile p {
+  text-align: justify;
+}
+
+.mobile .wrap-mobile p span {
+  color: #EF7710;
+  font-weight: bold;
 }
 
 /*===========================================================*/
