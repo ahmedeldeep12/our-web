@@ -45,7 +45,7 @@ $(function() {
 
 $('.fa-bars').click(function() {
 
-    $('nav ul').slideToggle(500);
+    $('nav  .main-ul').slideToggle(500);
 });
 
 

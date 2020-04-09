@@ -47,7 +47,6 @@ a {
   padding: 3px 50px;
   font-size: 25px;
   border-radius: 10px;
-  margin-left: 25px;
   margin-top: 20px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -198,7 +197,6 @@ header nav .wrap-list {
 header nav .wrap-list .list-work {
   position: absolute;
   top: 20px;
-  display: block;
   z-index: 5555555555;
   background-color: #fff;
   width: 65px;
@@ -1325,6 +1323,25 @@ a:hover {
     color: #EF7710;
     border-radius: 5px;
   }
+  header nav .wrap-list {
+    margin-left: 0px;
+  }
+  header nav .wrap-list .list-work {
+    position: relative;
+    top: 0;
+    right: 45px;
+    display: none;
+    background-color: transparent;
+    width: 60px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  header nav .wrap-list .arrow::after {
+    left: 0px;
+  }
+  header nav .wrap-list:hover .list-work {
+    display: block;
+  }
   header nav .left-nav select {
     color: #fff;
   }
@@ -1403,6 +1420,9 @@ a:hover {
   }
   .we-r .wrap-we-card .card-one h5 {
     color: #fff;
+  }
+  .wrap-list .list-work {
+    display: block !important;
   }
 }
 /*# sourceMappingURL=mainStyle.css.map */

@@ -60,7 +60,6 @@ header {
             .list-work{
                 position: absolute;
                 top: 20px;
-                display: block;
                 z-index: 5555555555;
                 background-color: #fff;
                 width: 65px;
@@ -1277,6 +1276,31 @@ a:hover {
                 }
             }
 
+            .wrap-list {
+                margin-left:0px;
+                .list-work{
+                    position: relative;
+                    top: 0;
+                    right: 45px;
+                    display: none;
+                    background-color: transparent;
+                    width: 60px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+                }
+        
+            }
+
+            .wrap-list .arrow::after {
+                left: 0px;
+            }
+
+            .wrap-list:hover {
+                .list-work{
+                    display: block;
+                }
+            }
+
             .left-nav {
                 select {
                     color: #fff;
@@ -1290,6 +1314,7 @@ a:hover {
                     color: #fff;
                 }
             }
+
         }
     
         .wrap-header {
@@ -1398,6 +1423,15 @@ a:hover {
              }
             
         }
+    }
+
+    .wrap-list {
+        .list-work{
+
+            display: block !important;
+
+        }
+
     }
 
 }
